@@ -14,6 +14,7 @@ Follow these steps to set up the project locally on your machine.
 ```
 git clone https://github.com/ArnaudSene/python-django-postgres-docker.git
 cd python-django-postgres-docker
+cd backend_django
 ```
 
 ### Create `.env` file
@@ -38,6 +39,14 @@ docker compose up --build -d
 docker compose up -d
 ```
 
+### Stop containers
+
+```
+docker compose down
+```
+
+> **Note**
+> You have to be located in the backend_django to execute `docker compose` commands
 
 Open `http://localhost:8000` in your browser to view the project.
 
