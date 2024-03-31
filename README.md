@@ -16,6 +16,15 @@ git clone https://github.com/ArnaudSene/python-django-postgres-docker.git
 cd python-django-postgres-docker
 ```
 
+### Create `.env` file
+
+1. Copy/rename the .env.sample to .env
+2. Update with valid information
+
+```
+cp .env.sample .env
+```
+
 ### Build & deploy
 
 **Build and deploy**
